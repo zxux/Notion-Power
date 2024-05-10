@@ -10863,7 +10863,7 @@ body { background-color: var(--color-page-background); }
       ],
     })(e);
   }
-  var wo = ((e) => ((e[(e.in = 0)] = "in"), (e[(e.expired = 1)] = "expired"), e))(wo || {});
+  var wo = ((e) => ((e[(e.in = 0)] = "in"), (e[(e.expired = 9999)] = "expired"), e))(wo || {});
   async function SO() {
     const e = await gs(["trialStartDate", "isLicenseValid"]);
     let t = wo.in,

@@ -502,7 +502,7 @@ const et = /^https?:\/\/(?:www\.)?notion\.so\/(?:(?!help|templates|product|blog|
   Dt = rt,
   vt = st,
   Et = "37E5CB33-2BFB-408B-9DD3-A35CF9FDF047",
-  wt = 3;
+  wt = 9999;
 export {
   nt as B,
   lt as C,
