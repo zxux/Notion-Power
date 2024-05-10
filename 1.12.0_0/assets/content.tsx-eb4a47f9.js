@@ -2199,7 +2199,7 @@ function Qu() {
               children: [
                 F("div", {
                   className: "flex items-center",
-                  children: [T("div", { className: "header-icon", style: { backgroundImage: `url(${Zt})` } }), T(xn, { as: "h6", size: "xs", marginLeft: 1, children: "Notion Power" })],
+                  children: [T("div", { className: "header-icon", style: { backgroundImage: `url(${Zt})` } }), T(xn, { as: "h6", size: "xs", marginLeft: 1, children: "NotionX Power" })],
                 }),
                 T("span", { role: "button", tabIndex: 0, "aria-label": "collapse toc", className: "cursor-pointer icon-collapse", style: { maskImage: `url(${Qt})` }, onClick: () => le(!0) }),
               ],
