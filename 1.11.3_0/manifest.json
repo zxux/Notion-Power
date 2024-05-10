@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "src/assets/logo.png",
+         "24": "src/assets/logo.png",
+         "32": "src/assets/logo.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Notion Power: Empower your notion experience"
+   },
+   "author": "Kevin4dev",
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/content-c31c32c2.css" ],
+      "js": [ "assets/content.tsx-loader-c217be27.js" ],
+      "matches": [ "http://www.notion.so/*", "https://www.notion.so/*" ]
+   } ],
+   "description": "Numerous customization features, enhancing UX/UI for Notion page. Fixed TOC, change theme and font, scroll-to-top button, more...",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAug9rydEjRmcqPKkTI4gw0qj3glwYoTGc/REpN/jMe2Pwz6vA42YYfjt0jtCP1UfZZZgjjhmKBxASPzxcjO3zXZVIdgm3JVKlR1q6iYpuUc3iLwL+XeEwddd9KhTxnw+3k+BFBESO4XceKnBbiG17bLZRSdzSVD3T/UdBMhLUTRGHKsde6jDgF+XgWYjWtkGlhynRPAUEOm2HfdvyMsirTq1yhNm5oWs57dm7W0rNiNTSKaU9B0phkznfU3+UJAJcjfO6DBpeytsKcSRFDUG8zYSuV24hXwYAXkQHy+nlc1G2CKqkMPDFK7H9KNpk/ag2yC+73Z9J2MDN+Og3ca53qQIDAQAB",
+   "manifest_version": 3,
+   "name": "Notion Power",
+   "permissions": [ "storage", "tabs", "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.11.3",
+   "web_accessible_resources": [ {
+      "matches": [ "http://www.notion.so/*", "https://www.notion.so/*" ],
+      "resources": [ "assets/logo-997c6194.png", "assets/icon-collapse-b33b49ee.svg", "assets/logo-ac8119b5.js", "assets/const-4e5411b4.js", "assets/content.tsx-ee3d1bf1.js" ],
+      "use_dynamic_url": true
+   } ]
+}
